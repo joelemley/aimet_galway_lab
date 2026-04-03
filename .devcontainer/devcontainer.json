@@ -1,0 +1,9 @@
+{
+    "name": "AIMET Official Lab",
+    "image": "artifacts.codelinaro.org/codelinaro-aimet/aimet-dev:latest", 
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-python.python", "ms-toolsai.jupyter"]
+        }
+    }
+}
