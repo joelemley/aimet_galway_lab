@@ -1,11 +1,9 @@
 {
     "name": "AIMET Official Lab (Fixed)",
-    // 1. Use the specific variant suffix (essential!)
+
     "image": "artifacts.codelinaro.org/codelinaro-aimet/aimet-dev:latest.torch-cpu",
     
     "features": {
-        // 2. This feature fixes most "Remote Server" connection errors 
-        // by pre-installing the libraries VS Code needs to talk to the container.
         "ghcr.io/devcontainers/features/common-utils:1": {
             "installZsh": true,
             "configureZshAsDefaultShell": true
@@ -17,8 +15,6 @@
             "extensions": ["ms-python.python", "ms-toolsai.jupyter"]
         }
     },
-
-    // 3. Force a 4-core machine if possible (more disk/RAM)
     "hostRequirements": {
         "cpus": 4,
         "memory": "16gb"
