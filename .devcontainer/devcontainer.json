@@ -1,7 +1,7 @@
 {
     "name": "AIMET container for University of Galway Professional Diploma in practical AI for Software Developers",
 
-    "image": "artifacts.codelinaro.org/codelinaro-aimet/aimet-dev:latest.torch-cpu",
+    "image": "artifacts.codelinaro.org/codelinaro-aimet/aimet-dev:latest.onnx-cpu",
     
     "features": {
         "ghcr.io/devcontainers/features/common-utils:1": {
