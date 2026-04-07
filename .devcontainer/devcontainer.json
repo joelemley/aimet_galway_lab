@@ -1,5 +1,5 @@
 {
-    "name": "AIMET Lab for University of Galway Professional Diploma in practical AI for Software Developers",
+    "name": "AIMET container for University of Galway Professional Diploma in practical AI for Software Developers",
 
     "image": "artifacts.codelinaro.org/codelinaro-aimet/aimet-dev:latest.torch-cpu",
     
